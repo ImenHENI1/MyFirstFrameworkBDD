@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 		features = {"src/specs/features"},
 		//glue = {""},
 		plugin = {"pretty", "html:target/cucumber-html-report","json:target/cucumber.json" , "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Orange.html"},
-		tags = {("@search")},//@connexion/ @search / @cs /  @buzztxt / @buzzphoto / @buzztest 
+		tags = {("@buzzvideo")},//@connexion/ @search / @cs /  @buzztxt / @buzzphoto / @buzztest 
 									// @buzzvideo / @searchDirectory/@logout/@addition/ @soustraction/ @multiplication
 									//@division/ @modulo/ @superCalculator
 		snippets = SnippetType.CAMELCASE,
